@@ -8,7 +8,7 @@ document.getElementById("btnPesquisar").addEventListener("click", function(){
         if(dados.erro){
             resultado.innerHTML = "CEP não encontrado"
         }   else{
-            resultado.innerHTML = "Rua: " + dados.logradouro + "Bairro: " + dados.bairro
+            resultado.innerHTML = "Rua: " + dados.logradouro + "<br>Bairro: " + dados.bairro + "<br>Cidade: " + dados.localidade
         }
 
     }).catch(error => console.error(error))

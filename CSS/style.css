@@ -16,7 +16,7 @@ body {
 }
 
 #btnPesquisar {
-    width: 100%;
+    width: 300px;
     padding: 8px;
     background-color: rgb(0,117,182);
     color: aliceblue;
@@ -48,3 +48,4 @@ img {
     height: auto;
     margin: 50px;
 }
+
